@@ -1,0 +1,257 @@
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.botones{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: sans-serif;
+}
+
+.btn-column1{
+ display: flex;
+ gap: 15px;
+}
+
+.white{
+    
+    background-color: white;
+    color: black;
+}
+
+.white:hover{
+    filter: brightness(1.25);
+    transform: scale(1.1);
+    transition: transform 500ms ease;
+}
+
+.btn{
+    border: none;
+    font-size: 15px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 500ms ease;
+}
+
+.light{
+    background-color: rgb(233, 233, 233);
+    color: black;
+}
+
+.light:hover{
+    transform: scale(1.2);
+    transition: transform 500ms ease;
+}
+
+.dark{
+    background-color: rgb(61, 61, 61);
+    color: white;
+}
+
+.dark:hover{
+    transform: scale(1.2);
+    transition: transform 500ms ease;
+}
+
+.black{
+    background-color: black;
+    color: white;
+}
+
+.black:hover{
+    transform: scale(1.2);
+    transition: transform 500ms ease;
+}
+
+.text{
+    text-decoration:underline;
+    background-color: white;
+    color: black;
+}
+
+.text:hover{
+    transform: scale(1.2);
+    transition: transform 500ms ease;
+}
+
+.btn-column2{
+    display: flex;
+    gap: 15px;
+}
+
+.primary{
+    background-color: rgb(57, 184, 177);
+    color: white;
+}
+
+.primary:hover{
+    transform: scale(1.2);
+    transition: transform 500ms ease;
+}
+
+.link{
+    background-color: #4169e1;
+    color: white;
+}
+
+.link:hover{
+    transform: scale(1.2);
+    transition: transform 500ms ease;
+}
+
+.info{
+    background-color: #00b7eb;
+    color: white;
+}
+
+.info:hover{
+    transform: scale(1.2);
+    transition: transform 500ms ease;
+}
+
+.success{
+    background-color: #00cc00;
+    color: white;
+}
+
+.success:hover{
+    transform: scale(1.2);
+    transition: transform 500ms ease;
+}
+
+.warning{
+    background-color: #efcc00;
+    color: black;
+}
+
+.warning:hover{
+    transform: scale(1.2);
+    transition: transform 500ms ease;
+}
+
+.danger{
+    background-color: #bb2a7c ;
+    color: white;
+}
+
+.danger:hover{
+    transform: scale(1.2);
+    transition: transform 500ms ease;
+}
+
+.btn-column3 {
+    display: flex;
+    gap: 15px;
+}
+
+.primary2{
+    background-color: #e0ffff;
+    color: #20b2aa;
+}
+
+.primary2:hover{
+    transform: scale(1.2);
+    transition: transform 500ms ease;
+}
+
+.link2 {
+    background-color: #e8f4f8;
+    color: #4169e1;
+}
+
+.link2:hover{
+    transform: scale(1.2);
+    transition: transform 500ms ease;
+}
+
+.info2{
+    background-color: #e5f4fb;
+    color: #24a3d6;
+}
+
+.info2:hover{
+    transform: scale(1.2);
+    transition: transform 500ms ease;
+}
+
+.success2{
+    background-color: #edfced;
+    color: #1fc71f;
+}
+
+.success2:hover{
+    transform: scale(1.2);
+    transition: transform 500ms ease;
+}
+
+.warning2{
+    background-color: #fffbe6;
+    color: #efcc00;
+}
+
+.warning2:hover{
+    transform: scale(1.2);
+    transition: transform 500ms ease;
+}
+
+.danger2{
+    background-color: #ffe6ff;
+    color: #d600d6;
+}
+
+.danger2:hover{
+    transform: scale(1.2);
+    transition: transform 500ms ease;
+}
+
+.btn-column4{
+    display: flex;
+    gap: 10px;
+}
+
+.btn2{
+    width: 80px;
+    height: 30px;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 500ms ease;
+    background-color: white;
+}
+
+.small:hover{
+    transform: scale(0.9);
+}
+
+.default:hover{
+    transform: scale(1.2);
+}
+
+.normal:hover{
+    transform: scale(1.3);
+}
+
+.medium:hover{
+    transform: scale(1.4);
+}
+
+.large:hover{
+    transform: scale(1.5);
+}
+
+
+
+
+
+
+
+
+
